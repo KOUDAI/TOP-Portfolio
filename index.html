@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portofolio</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="styleshet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel='stylesheet' href='style.scss'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="aos-maser/demo/css/styles.css"> <!-- head内で読み込む -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container" class="wrap">
+        <div id="home" class="big-bg">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">My Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-page">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skill-page">SKILL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service-page">SERVICE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#works-page">WORKS</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-page">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <div class="home-content wrapper">
+                <h1 class="page-title">Welcome to TOP's Portfolio!</h1>
+            </div>
+        </div>
+
+        <div class="container main">
+            <div class="container about">
+                <div class="row about">
+                    <div class="col-lg-12">
+                    <a id="about-page"></a>
+                    <h2 id="h2 about">ABOUT</h2>
+                    </div>
+                </div>
+            
+                <div class="row pr-area">
+                    <div class="col-lg-4 pr-img aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="images/pr2.png" class="pr-img" alt="プロフィール">
+                    </div>
+                    <div class="col-lg-8 pr-text">
+                        <dl data-aos="fade-left" data-aos-duration="1000" class="aos-init aos-animate">
+                            <dt>
+                                <i class="fas fa-user orange" aria-hidden="true"></i>
+                                プロフィール
+                            </dt>
+                            <dd>
+                                <span>こうだい / TOP(English Name) / 大阪 / Webエンジニア</span><br>
+                                学生時代､海外で事業設立 / 新卒で大手IT商社営業 /<br>
+                                脱サラし海外関連事業(不動産･永住権)で独立 /<br>
+                                プログラミングキャンプ<br>(Laravelで音楽系マッチングアプリ制作) /<br>
+                                HTML･CSS等を独学勉強 /現在<br><br>
+                                法人営業や起業経験を活かし
+                                お客様のご要望にしっかりとお応えして参ります｡
+                            </dd>
+                        </dl>
+                        <dl data-aos="fade-left" data-aos-duration="1000" class="aos-init aos-animate">
+                            <dt>
+                                <i class="fas fa-link orange" aria-hidden="true"></i>
+                                リンク
+                            </dt>
+                            <dd>
+                                <span>
+                                    <a href="https://twitter.com/K765K" alt="ツイッター">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    Twitter
+                                    </a>
+                                </span>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container skill">
+                <div class="row skill">
+                    <div class="col-lg-12">
+                        <a id="skill-page"></a>
+                        <h2>SKILL</h2>
+                    </div>
+                </div>
+                <div class="row skill-contents">
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="html"></h3>
+                        <img src="images/HTML.png" alt="HTMLロゴ">
+                    </div>
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="css"></h3>
+                        <img src="images/CSS.png" alt="CSSロゴ">
+                    </div>
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="bootstrap"></h3>
+                        <img src="images/Bootstrap.png" alt="Bootstrapロゴ">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container service">
+                <div class="row service">
+                    <div class="col-lg-12">
+                        <a id="service-page"></a>
+                        <h2>SERVICE</h2>
+                    </div>
+                </div>
+                <div class="row service-contents">
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <h3>コーディング</h3>
+                        <img src="images/c1.png" alt="コーディングロゴ">
+                        <p>
+                            ご要望をヒアリングさせて頂き､
+                            <br>
+                            コーポレートサイト､ランディングページなどの
+                            <br>
+                            Web制作全般をお手伝いいたします｡
+                        </p>
+                    </div>
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <h3>レスポンシブ対応</h3>
+                        <img src="images/r2.png" alt="レスポンシブロゴ">
+                        <p>
+                            スマートフォンやタブレットでも
+                            <br>
+                            快適にWEBサイトを閲覧できるように
+                            <br>
+                            レスポンシブ対応いたします｡
+                        </p>
+                    </div>
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <h3>メンテナンス</h3>
+                        <img src="images/m3.png" alt="メンテンナスロゴ">
+                        <p>
+                            Webサイト制作後の保守･管理の修正や更新など
+                            <br>
+                            ご要望に応じてサポートいたします｡
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container works">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a id="works-page"></a>
+                        <h2 class="works-title">WORKS</h2>
+                    </div>
+                </div>
+                <div class="row works-contents">
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <a class="link-card" href="https://koudai.github.io/it_univ_practice/">
+                            <img class="link-card-img" src="images/card1.png">
+                        </a>
+                        <p>
+                            シンプルなサイト
+                        </p>
+                    </div>
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <a class="link-card" href="https://koudai.github.io/TEST2/">
+                            <img class="link-card-img" src="images/card2.png">
+                        </a>
+                        <p>
+                            コーポレートサイト
+                            <br>
+                            (レスポンシブ対応)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container form">
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeaxYwS_68WKxYzACJpheWpnbKafXFpTo8dRIxwt1grtKzM-A/formResponse" method="post">
+                    <div class="row form">
+                        <div class="col-lg-12 form">
+                            <a id="contact-page"></a>
+                            <h2 class="contact">CONTACT</h2>
+                        </div>
+                        <div class="col-lg-12 form">
+                            <input type="text" name="entry.2005620554" required="required" id="textfield" class="g_form" placeholder="お名前">
+                        </div>
+                        <div class="col-lg-12 form">
+                            <input type="email" name="entry.1045781291" required="required" id="textfield2" class="g_form" placeholder="メールアドレス">
+                        </div>
+                        <div class="col-lg-12 form">
+                            <textarea name="entry.839337160" rows="5" cols="30"  required class="g_form_text" id="entry.1846923513" placeholder="お問い合わせ内容"></textarea>
+                        </div>
+                        <div class="col-lg-12 form">
+                            <button type="submit" name="submit" class="btn btn-info ">送信する</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+            <footer class="footer">
+                <div class="copylight">
+                    ©Copyright2021, My Portfolio All Rights Reserved.
+                </div>
+            </footer>
+        <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+                        <script type="text/javascript">
+                            if (OCwindowWidth() <= 800) {
+                                open_close("menubar_hdr", "menubar-s");
+                            }
+                        </script>
+        <script src="js/aos.js"></script> <!-- body閉じタグ直前で読み込む -->
+        <script>
+            AOS.init();
+        </script>
+    </div>
+</body>
+
+</html>
+
+
